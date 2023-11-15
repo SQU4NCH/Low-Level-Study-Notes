@@ -57,13 +57,13 @@ Por exemplo:
 
 Os nomes alternativos também permitem endereçar as partes menores
 
-![[Decomposição de rax.png]]
+![Decomposição de rax](https://github.com/SQU4NCH/Low-Level-Study-Notes/blob/main/Imagens/Decomposi%C3%A7%C3%A3o%20de%20rax.png)
 
 A convenção de nomenclatura para acessar partes de rax, rbx, rcx e rdx segue o mesmo padrão. Os outros quatro registradores não permitem acesso aos seus segundos bytes menos significativos. A nomenclatura do byte menos significativo difere um pouco para rsi, rdi, rsp e rbp 
 
-![[Pasted image 20231115112316.png]]
+![](https://github.com/SQU4NCH/Low-Level-Study-Notes/blob/main/Imagens/Pasted%20image%2020231115112316.png)
 
-![[Pasted image 20231115125600.png]]
+![](https://github.com/SQU4NCH/Low-Level-Study-Notes/blob/main/Imagens/Pasted%20image%2020231115125600.png)
 
 Em geral, os programadores se atêm aos nomes alternativos para os oito primeiros registradores de propósito geral (r0-r7). Os outros oito registradores (r8-r15) só podem ser nomeados usando uma convenção com indexação
 
