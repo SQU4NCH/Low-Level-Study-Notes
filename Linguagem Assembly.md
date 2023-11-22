@@ -85,7 +85,7 @@ Para compilar o programa foi utilizado a seguinte sequencia de comandos:
 
 Executando o programa:
 
-![[Segmentation fault.png]]
+![]("/Imagens/Segmentation_fault.png")
 
 A mensagem foi exibida, porém o programa acabou causando um erro. O problema é que não foi escrita nenhuma instrução após a syscall e o programa continuou executando lendo o "lixo" existente na memória
 
@@ -112,6 +112,6 @@ _start:
 
 Ao executar a instrução xor rdi, rdi o valor de rdi é zerado, e esse é o valor do argumento utilizado pela syscall exit, que será retornado pelo programa
 
-![[hello.asm.png]]
+![](/Imagens/hello.asm.png)
 
 continua....
