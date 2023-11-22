@@ -85,7 +85,7 @@ Para compilar o programa foi utilizado a seguinte sequencia de comandos:
 
 Executando o programa:
 
-![]("/Imagens/Segmentation_fault.png")
+![](/Imagens/Segmentation_fault.png)
 
 A mensagem foi exibida, porém o programa acabou causando um erro. O problema é que não foi escrita nenhuma instrução após a syscall e o programa continuou executando lendo o "lixo" existente na memória
 
